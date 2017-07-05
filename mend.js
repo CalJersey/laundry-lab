@@ -8,6 +8,7 @@ var torn_clothes = [
 /* YOUR CODE HERE */
 function mend(clothing_item){
     // return mended_clothing_item;
+    return clothing_item.replace(/\//,'');
 }
 
 
